@@ -1,0 +1,41 @@
+.sign-up-now {
+  color: $white;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Lato";
+}
+
+.section-5 {
+  background-image: url(../images/bg-masthead.jpg);
+  min-height: 220px;
+  width: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+
+.email {
+  padding: 7px 110px 7px 10px;
+  text-align: left;
+  border-radius: 3px;
+  border: none;
+}
+
+.submit {
+  padding: 7px 20px;
+  color: $white;
+  background: $blue;
+  border: none;
+  border-radius: 3px;
+  font-family: "Lato";
+  font-size: 13px;
+  transition: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}

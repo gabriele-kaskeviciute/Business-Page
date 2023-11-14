@@ -1,0 +1,56 @@
+.line-1,
+.line-2,
+.line-3 {
+  display: flex;
+  height: 310px;
+}
+
+// box-text
+
+.box-text {
+  width: 50%;
+  background: white;
+  font-family: "Lato";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.description-title {
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 80px;
+}
+
+.description {
+  width: 350px;
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 18px;
+  color: $text-gray;
+  padding-left: 80px;
+  line-height: 20px;
+}
+
+//box-img
+
+.box-img-1 {
+  background-image: url(../images/bg-showcase-1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+}
+
+.box-img-2 {
+  background-image: url(../images/bg-showcase-2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+}
+
+.box-img-3 {
+  background-image: url(../images/bg-showcase-3.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+}

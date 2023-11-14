@@ -1,0 +1,43 @@
+header {
+  max-width: 1000px;
+  margin: auto;
+  background: #f8f9fa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  width: 100%;
+  gap: 380px;
+}
+
+.business {
+  text-decoration: none;
+  color: #232529;
+  font-family: "Lato";
+  font-size: 13px;
+  margin: 6px;
+  transition: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}
+
+button {
+  color: white;
+  background: #007bff;
+  padding: 9px 10px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Lato";
+  font-size: 10px;
+  transition: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}

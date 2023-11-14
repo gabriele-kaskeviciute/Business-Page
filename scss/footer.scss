@@ -1,0 +1,30 @@
+footer {
+  background: $white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  height: 100px;
+}
+
+.list {
+  color: $blue;
+  font-size: 12px;
+  margin: 0;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 8px;
+  padding-top: 5px;
+  color: $text-gray;
+}
+
+.socials {
+  color: $blue;
+  margin-right: 10px;
+}
+.insta {
+  color: $blue;
+}
